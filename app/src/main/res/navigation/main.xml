@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuInicio">
+
+    <fragment
+        android:id="@+id/menuInicio"
+        android:name="com.example.projecttesisii.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/menuNuevo"
+        android:name="com.example.projecttesisii.NuevoFragment"
+        android:label="fragment_nuevo"
+        tools:layout="@layout/fragment_nuevo" />
+    <fragment
+        android:id="@+id/menuOferta"
+        android:name="com.example.projecttesisii.OfertaFragment"
+        android:label="fragment_oferta"
+        tools:layout="@layout/fragment_oferta" />
+</navigation>
